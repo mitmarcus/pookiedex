@@ -21,7 +21,7 @@ Welcome to PookieDex, your ultimate Pokédex web application developed using Rea
 
 ## Getting Started
 
-1. Clone the Repository: Clone the PokéGuide repository to your local machine.
+1. Clone the Repository: Clone the PookieDex repository to your local machine.
 2. Install Dependencies: Run `npm install` to install the necessary dependencies.
 3. Start the Development Server: Launch the development server with `npm start`.
 4. Explore PokéGuide: Open your web browser and visit `http://localhost:3000` to start exploring PokéGuide.
