@@ -12,7 +12,7 @@ Welcome to PookieDex, your ultimate Pokédex web application developed using Rea
 
 ## Features
 
-- **Pokémon Catalog:**Retrieve Pokémon information from the PokéAPI database, providing a comprehensive list of Pokémon species.
+- **Pokémon Catalog:** Retrieve Pokémon information from the PokéAPI database, providing a comprehensive list of Pokémon species.
 - **Pagination:** Easily navigate through pages of Pokémon using intuitive "next" and "back" buttons for a seamless browsing experience.
 - **Detailed Pokémon Profiles:** Click on any Pokémon to access detailed information.
 - **Multiple Pages:** The application contains multiple pages including the "pokedex" page and an "about" page.
