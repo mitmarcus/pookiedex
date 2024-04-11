@@ -26,7 +26,7 @@ export default function PokeDetails({ pokemon }) {
   return (
     <div className="PokeDetailsPage">
       <div className="PokeDetails">
-        <Link to="/" style={{ position: 'absolute', top: '0', right: '0' }}>
+        <Link to="/pookiedex" style={{ position: 'absolute', top: '0', right: '0' }}>
           <img src={Close} alt="close" className="close" />
         </Link>
 

@@ -8,7 +8,7 @@ export default function About() {
     <div className="about-container"> {/* Container for the About section */}
       <div className="nav">
         <nav className="app__navbar text-pop-up-top">
-          <Link to="/">
+          <Link to="/pookiedex">
             <img src={Pokedex} alt="Pookiedex" className="Pookiedex-Logo" />
           </Link>
         </nav>
