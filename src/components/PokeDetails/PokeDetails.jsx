@@ -1,8 +1,9 @@
 import React from 'react';
 import './PokeDetails.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Arrow from '../../assets/right-arrow.svg';
 import Close from '../../assets/close.png';
+
 
 const pokeStatType = {
   hp: 'HP',
@@ -23,12 +24,18 @@ const pokemonSpriteUrl = (name) =>
   `https://img.pokemondb.net/sprites/home/normal/${name}.png`;
 
 export default function PokeDetails({ pokemon }) {
+  const navigate = useNavigate(); // Initialize useHistory
+
+  // Function to handle closing the details and go back to the previous URL
+  const handleClose = () => {
+    navigate(-1); // Go back to the previous URL
+  };
   return (
     <div className="PokeDetailsPage">
       <div className="PokeDetails">
-        <Link to="/pookiedex" style={{ position: 'absolute', top: '0', right: '0' }}>
+        <div onClick={handleClose} className="close-button" style={{ position: 'absolute', top: '0', right: '0' }}>
           <img src={Close} alt="close" className="close" />
-        </Link>
+        </div>
 
         <div className="PokeDetails-header">
           <img
