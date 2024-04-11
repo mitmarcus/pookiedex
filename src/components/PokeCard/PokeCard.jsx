@@ -44,7 +44,7 @@ export default function PokeCard(props) {
         {/* Display the type */}
         <div className="PokeCard-types">
           {types.map((type) => (
-            <Link to={`/?type=${type.type.name}`} key={type.type.name}>
+            <Link to={`/pookiedex/?type=${type.type.name}`} key={type.type.name}>
               <p
                 className={`PokeCard-type ${type.type.name}`}
                 key={type.type.name}

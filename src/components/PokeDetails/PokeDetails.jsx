@@ -44,7 +44,7 @@ export default function PokeDetails({ pokemon }) {
           <p className="PokeDetails-genus">{pokemon.species.genera[7].genus}</p>
           <div className="PokeDetails-types">
             {pokemon.types.map((type) => (
-              <Link to={`/?type=${type.type.name}`} key={type.type.name}>
+              <Link to={`/pookiedex/?type=${type.type.name}`} key={type.type.name}>
                 <p className={`PokeDetails-type ${type.type.name}`}>
                   {type.type.name}
                 </p>
@@ -99,7 +99,7 @@ export default function PokeDetails({ pokemon }) {
             <p className="PokeDetails-title">Weaknesses</p>
             <div className="PokeDetails-weaknesses">
               {pokemon.weakness.map((type) => (
-                <Link to={`/?type=${type.toLowerCase()}`} key={type}>
+                <Link to={`/pookiedex/?type=${type.toLowerCase()}`} key={type}>
                   <img
                     src={`https://raw.githubusercontent.com/duiker101/pokemon-type-svg-icons/master/icons/${type.toLowerCase()}.svg`}
                     className={`PokeDetails-weakness ${type.toLowerCase()} icon`}
