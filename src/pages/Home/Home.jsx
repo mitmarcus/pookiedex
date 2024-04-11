@@ -82,7 +82,7 @@ export default function Home() {
         <PokeLoading />
       ) : (
         <div className="Home">
-          <Link to="/">
+          <Link to="/pookiedex">
             <img src={Pokedex} alt="Pookiedex" className="Pookiedex-Logo" />
           </Link>
 
