@@ -31,7 +31,7 @@ The Pokédex React App is deployed on GitHub Pages.
 You can find it [here](https://mitmarcus.github.io/pookiedex/).
 
 ## Notes
-For routing to work on Github Pages, make sure you are using createHashRouter instead of createBrowserRouter, otherwise you'll get a headache :)
+- For routing to work on Github Pages, make sure you are using createHashRouter instead of createBrowserRouter, otherwise you'll get a headache :)
 
 ## Credits
 
