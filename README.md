@@ -18,7 +18,6 @@ Welcome to PookieDex, your ultimate Pokédex web application developed using Rea
 - **Multiple Pages:** The application contains multiple pages including the "pokedex" page and an "about" page.
 - **Dynamic Routing:** Utilize React Router to effortlessly switch between different sections of the application, including the "Pokédex" and "About" pages.
 
-
 ## Getting Started
 
 1. Clone the Repository: Clone the PookieDex repository to your local machine.
@@ -30,6 +29,9 @@ Welcome to PookieDex, your ultimate Pokédex web application developed using Rea
 
 The Pokédex React App is deployed on GitHub Pages. 
 You can find it [here](https://mitmarcus.github.io/pookiedex/).
+
+## Notes
+- For routing to work on Github Pages, make sure you are using createHashRouter instead of createBrowserRouter, otherwise you'll get a headache :)
 
 ## Credits
 
