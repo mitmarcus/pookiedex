@@ -101,7 +101,7 @@ export default function Home() {
                 src={Close}
                 alt="reset"
                 onClick={() => {
-                  navigate('/');
+                  navigate('/pookiedex');
                 }}
               />
             </p>
