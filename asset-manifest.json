@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pookiedex/static/css/main.a745ea55.css",
-    "main.js": "/pookiedex/static/js/main.475fc3ff.js",
+    "main.js": "/pookiedex/static/js/main.098d9c9d.js",
     "static/media/pokeball.svg": "/pookiedex/static/media/pokeball.0c2660bf421c4ff95202fcf628fb6601.svg",
     "static/media/right-arrow.svg": "/pookiedex/static/media/right-arrow.a0f81365cc9f563fa19c740cd2aa20ab.svg",
     "index.html": "/pookiedex/index.html",
     "main.a745ea55.css.map": "/pookiedex/static/css/main.a745ea55.css.map",
-    "main.475fc3ff.js.map": "/pookiedex/static/js/main.475fc3ff.js.map"
+    "main.098d9c9d.js.map": "/pookiedex/static/js/main.098d9c9d.js.map"
   },
   "entrypoints": [
     "static/css/main.a745ea55.css",
-    "static/js/main.475fc3ff.js"
+    "static/js/main.098d9c9d.js"
   ]
 }
