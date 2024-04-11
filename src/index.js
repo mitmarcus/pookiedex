@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/pookiedex" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/pokemon/:id" element={<Details />} />
         </Routes>
